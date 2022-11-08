@@ -39,7 +39,7 @@ barplot(table(driver),ylim=c(0,200),col=gray.colors(7),
         ylab='Number of deliveries', xlab='Driver',main='Title')
 
 
-p3 <- qplot(driver,data=pizza_delivery,aes=('bar'),fill=day)
+<- p3 <- qplot(driver,data=pizza_delivery,aes=('bar'),fill=day)
 p4 <- p3 + scale_fill_grey() +theme_bw()
 plot(p4)
           
